@@ -66,7 +66,7 @@ class SportsCl {
 const Exercise = new SportsCl('Horseriding', 'Cyclist');
 console.log(Exercise); //output => SportsCl {firstSport: 'Horseriding', secondSport: 'Cyclist'}
 
-// In the result above we can see that it looks just like before .We can also add a method(function) with this class .The method("testGame") is also accessible in "Exercise" and we'll be able to find it's value in the prototype of Exercise .
+// In the result above ,we can see that it looks just like before .We can also add a method(function) with this class .The method("testGame") is also accessible in "Exercise" and we'll be able to find it's value in the prototype of Exercise .
 
 console.log(Exercise.__proto__ === SportsCl.prototype); //output => true
 
